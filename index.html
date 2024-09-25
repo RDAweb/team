@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Team Introduction</title>
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+    <main>
+        <section class="team">
+            <div class="team-member" data-name="John Doe" data-role="Lead Developer" data-bio="John has over 10 years of experience in web development.">
+                <img src="member1.jpg" alt="John Doe">
+                <h2>John Doe</h2>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member" data-name="Jane Smith" data-role="Project Manager" data-bio="Jane has a passion for project management and has led many successful projects.">
+                <img src="member2.jpg" alt="Jane Smith">
+                <h2>Jane Smith</h2>
+                <p>Project Manager</p>
+            </div>
+            <div class="team-member" data-name="Emily Johnson" data-role="UX Designer" data-bio="Emily specializes in creating user-friendly designs.">
+                <img src="member3.jpg" alt="Emily Johnson">
+                <h2>Emily Johnson</h2>
+                <p>UX Designer</p>
+            </div>
+            <div class="team-member" data-name="Michael Brown" data-role="Backend Developer" data-bio="Michael is a backend wizard with expertise in databases and server-side logic.">
+                <img src="member4.jpg" alt="Michael Brown">
+                <h2>Michael Brown</h2>
+                <p>Backend Developer</p>
+            </div>
+            <div class="team-member" data-name="Sarah Davis" data-role="Content Strategist" data-bio="Sarah has a knack for creating engaging content and strategies.">
+                <img src="member5.jpg" alt="Sarah Davis">
+                <h2>Sarah Davis</h2>
+                <p>Content Strategist</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h1>Our Projects</h1>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h2>Project One</h2>
+                <p>A brief description of what this project is about.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h2>Project Two</h2>
+                <p>A brief description of what this project is about.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h2>Project Three</h2>
+                <p>A brief description of what this project is about.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-name"></h2>
+            <p id="modal-role"></p>
+            <p id="modal-bio"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
